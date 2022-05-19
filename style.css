@@ -1,0 +1,72 @@
+/*
+    Theme Name: Iwalk WP Portal
+    Theme URI: https://www.custom-theme.com/
+    Author: Iwalk Jo
+    Author URI: https://www.Iwalk.com/
+    Description: Iwalk Theme is a lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites, easier than ever. It features an easy to use drag and drop header and footer builder to build any type of header in minutes. It features a full library of gorgeous starter templates that are easy to modify with our intelligent global font and color controls. With extensive integration with the most popular 3rd party plugins, you can quickly build impressive ecommerce websites, course websites, business websites, and more.
+    Version: 1.0
+    License: GNU General Public License v3.0 (or later)
+    License URI: https://www.gnu.org/licenses/gpl-3.0.html
+    Text Domain: customtheme
+    Tags: black
+*/
+
+/*
+    Add your custom styles here
+*/
+
+/* custom background and text color for bootstrap jumbotron */
+.gradient-bg {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#194061+0,11283c+100 */
+  background: #194061;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #194061 0%, #11283c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #194061 0%, #11283c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to right, #194061 0%, #11283c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194061', endColorstr='#11283c',GradientType=1 ); /* IE6-9 */
+
+  color: white;
+}
+
+.margin-neg-20 {
+  margin-top: -20px;
+}
+
+.main-custom-nav {
+  border-radius: 0;
+}
+
+.main-custom-nav a {
+  color: white;
+}
+
+.main-custom-nav .navbar-nav > li > a:hover,
+.main-custom-nav .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: grey;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapper-fluid {
+  width: 100%;
+}
+.smallwrap {
+  width: 1420px;
+  margin: 0px auto;
+  display: inline-flex;
+  flex-flow: row wrap;
+}
+.wrapper-container {
+  max-width: 1920px;
+  background: #000;
+  margin: 0px auto;
+}
